@@ -69,7 +69,7 @@ int getDigits()
 			}
 			else
 			{
-				printf("Bad input - please enter positve digits only [0-9]\n");
+				printf("Bad input - please enter positive digits only [0-9]\n");
 				fflush(stdin);
 				return getDigits();
 			}
